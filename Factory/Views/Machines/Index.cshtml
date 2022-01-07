@@ -2,6 +2,7 @@
   Layout = "_Layout";
 }
 
+
 @using Factory.Models;
 @model List<Factory.Models.Machine>;
 
@@ -16,11 +17,9 @@
   <table class="table table-bordered table-striped">
     @foreach(Machine machine in Model)
     {
-      <tr>
         <td>
           @Html.ActionLink($"{machine.Name}", "Details", new{ id = machine.MachineId})
         </td>
-      </tr>
     }
   </table>
 </div>
