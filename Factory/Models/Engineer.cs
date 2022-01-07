@@ -8,7 +8,7 @@ namespace Factory.Models
   {
     public Engineer()
     {
-      this.JoinEntities = new HashSet<EngineerPlayer>();
+      this.JoinEntities = new HashSet<EngineerMachine>();
     }
 
     public int EngineerId { get; set; }
@@ -16,6 +16,6 @@ namespace Factory.Models
     public string Description { get; set; }
   
   
-    public virtual ICollection<EngineerPlayer> JoinEntities { get; set; }
+    public virtual ICollection<EngineerMachine> JoinEntities { get; set; }
   }
 }
