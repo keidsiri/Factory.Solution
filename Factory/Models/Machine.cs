@@ -1,21 +1,21 @@
 using System.Collections.Generic;
 using System;
 
-namespace TennisCourt.Models
+namespace Factory.Models
 {
 
-  public class Player
+  public class Machine
   {
 
-    public Player()
+    public Machine()
     {
-      this.JoinEntities = new HashSet<CourtPlayer>();
+      this.JoinEntities = new HashSet<CourtMachine>();
     }
 
-    public int PlayerId { get; set; }
+    public int MachineId { get; set; }
     public string Name { get; set; }
     public string Brand { get; set; }
   
-    public virtual ICollection<CourtPlayer> JoinEntities { get; }
+    public virtual ICollection<CourtMachine> JoinEntities { get; }
   }
 }
