@@ -9,12 +9,12 @@ div#footer {
 }
 
 #home-index {
-	background-image: url(../css/img/main.jpg);
+	background-image: url(../img/main.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;
   text-align: center;
-	height: 450px;
+	height: 420px;
   box-shadow: 0px 1px 15px rgb(109, 109, 109);
   border-radius: 0px;
 }
@@ -25,7 +25,7 @@ div#footer {
 }
 
 #engineers-img {
-	background-image: url(../css/img/engineers.jpg);
+	background-image: url(../img/engineers.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,7 +38,7 @@ div#footer {
 }
 
 #machines-img {
-	background-image: url(../css/img/machines.jpg);
+	background-image: url(../img/machines.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -49,9 +49,3 @@ div#footer {
   border-radius: 50%;
 	margin: auto;
 }
-
-/* body {
-	background-image: url(../css/Img/university.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
-} */
