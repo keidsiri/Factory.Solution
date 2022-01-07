@@ -46,7 +46,7 @@ namespace Factory.Controllers
           .Include(machine => machine.JoinEntities)
           .ThenInclude(join => join.Engineer)
           .FirstOrDefault(machine => machine.MachineId == id);
-      return View(thiMachine);
+      return View(thisMachine);
     }
 
     public ActionResult Edit(int id)
