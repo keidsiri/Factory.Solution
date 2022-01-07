@@ -24,8 +24,8 @@ div#footer {
 	margin-bottom: 60px;
 }
 
-#courses-img {
-	background-image: url(../css/Img/courses.jpeg);
+#engineers-img {
+	background-image: url(../css/img/engineers.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -37,8 +37,8 @@ div#footer {
 	margin: auto;
 }
 
-#students-img {
-	background-image: url(../css/Img/students.jpeg);
+#machines-img {
+	background-image: url(../css/img/machines.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
