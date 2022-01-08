@@ -8,6 +8,10 @@ div#footer {
 	padding:8px;
 }
 
+body {
+	background-color: antiquewhite;
+}
+
 #home-index {
 	background-image: url(../img/main.jpg);
 	background-repeat: no-repeat;
